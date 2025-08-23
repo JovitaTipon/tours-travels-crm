@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Guide_Assigned__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Guide Assigned</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Employee__c.Role__c</field>
+            <operation>equals</operation>
+            <value>Guide</value>
+        </filterItems>
+        <filterItems>
+            <field>Employee__c.Availability_Status__c</field>
+            <operation>equals</operation>
+            <value>Available</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Employee__c</referenceTo>
+    <relationshipLabel>Bookings</relationshipLabel>
+    <relationshipName>Bookings</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

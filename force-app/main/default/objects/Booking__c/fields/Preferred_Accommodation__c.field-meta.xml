@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Accommodation__c</fullName>
+    <label>Preferred Accommodation</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Membership_Chosen__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Preferred_Accomodation</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Basic</controllingFieldValue>
+            <valueName>Hotel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic</controllingFieldValue>
+            <valueName>Resort</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gold</controllingFieldValue>
+            <valueName>Guest House</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gold</controllingFieldValue>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>Villa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>Cottage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>Luxury Hotel</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
