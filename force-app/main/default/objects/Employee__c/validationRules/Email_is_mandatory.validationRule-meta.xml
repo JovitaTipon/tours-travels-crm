@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_is_mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(ISPICKVAL(Role__c, &quot;Finance Executive&quot;), ISPICKVAL(Role__c, &quot;Admin&quot;)), ISBLANK(Email__c))</errorConditionFormula>
+    <errorDisplayField>Email__c</errorDisplayField>
+    <errorMessage>You Must Enter the Email</errorMessage>
+</ValidationRule>

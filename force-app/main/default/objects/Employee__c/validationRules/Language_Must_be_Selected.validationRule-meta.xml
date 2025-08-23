@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Language_Must_be_Selected</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Role__c, &quot;Guide&quot;), ISBLANK( Languages_Spoken__c ))</errorConditionFormula>
+    <errorDisplayField>Languages_Spoken__c</errorDisplayField>
+    <errorMessage>You Must Select Language</errorMessage>
+</ValidationRule>
