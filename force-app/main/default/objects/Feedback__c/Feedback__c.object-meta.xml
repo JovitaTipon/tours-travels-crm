@@ -155,9 +155,10 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Feedback</label>
     <nameField>
+        <displayFormat>FB-{YYYY}-{0000}</displayFormat>
         <label>Feedback No</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Feedbacks</pluralLabel>
     <searchLayouts></searchLayouts>

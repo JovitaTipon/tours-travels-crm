@@ -3,7 +3,7 @@
     <fullName>Customer__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <label>Customer</label>
-    <referenceTo>Customer</referenceTo>
+    <referenceTo>Customer_Info__c</referenceTo>
     <relationshipLabel>Feedbacks</relationshipLabel>
     <relationshipName>Feedbacks</relationshipName>
     <required>true</required>
