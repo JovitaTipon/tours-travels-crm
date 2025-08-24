@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Hotel</fullName>
+        <default>false</default>
+        <label>Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Resort</fullName>
+        <default>false</default>
+        <label>Resort</label>
+    </customValue>
+    <customValue>
+        <fullName>Guest House</fullName>
+        <default>false</default>
+        <label>Guest House</label>
+    </customValue>
+    <customValue>
+        <fullName>Villa</fullName>
+        <default>false</default>
+        <label>Villa</label>
+    </customValue>
+    <customValue>
+        <fullName>Cottage</fullName>
+        <default>false</default>
+        <label>Cottage</label>
+    </customValue>
+    <customValue>
+        <fullName>Luxury Hotel</fullName>
+        <default>false</default>
+        <label>Luxury Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>No Preference</fullName>
+        <default>false</default>
+        <label>No Preference</label>
+    </customValue>
+    <masterLabel>Preferred Accomodation</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

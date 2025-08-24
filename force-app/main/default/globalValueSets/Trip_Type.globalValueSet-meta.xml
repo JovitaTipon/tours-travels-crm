@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Family</fullName>
+        <default>false</default>
+        <label>Family</label>
+    </customValue>
+    <customValue>
+        <fullName>Solo</fullName>
+        <default>false</default>
+        <label>Solo</label>
+    </customValue>
+    <customValue>
+        <fullName>Group</fullName>
+        <default>false</default>
+        <label>Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Honeymoon</fullName>
+        <default>false</default>
+        <label>Honeymoon</label>
+    </customValue>
+    <customValue>
+        <fullName>Business</fullName>
+        <default>false</default>
+        <label>Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Adventure</fullName>
+        <default>false</default>
+        <label>Adventure</label>
+    </customValue>
+    <masterLabel>Trip Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
