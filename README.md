@@ -1,18 +1,16 @@
-# Salesforce DX Project: Next Steps
+# Tours & Travels CRM – Salesforce Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## 📌 Introduction
+The **Tours & Travels CRM** is a Salesforce-based project developed to automate and streamline travel agency operations. It manages customer records, bookings, payments, tour packages, and feedback in one platform, while using Salesforce features like automation flows, approval processes, Apex triggers, and dashboards to improve efficiency and customer satisfaction.  
 
-## How Do You Plan to Deploy Your Changes?
+---
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 📂 Project Files & Documentation
+- 📼 [Project Demo Video (Google Drive)](https://drive.google.com/file/d/1aBtbfSIVIC6AQEETlOPalMf7PF8wHw-_/view?usp=sharing)  
+- 📄 [Project Documentation (Google Drive)](https://docs.google.com/document/d/1SwmmtaAmeiFLhgI9X1zvvKCEdgXnSowyxtMoFZzHC-w/edit?usp=sharing)  
 
-## Configure Your Salesforce DX Project
+---
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## 👨‍💻 Author
+by **Jovita Tipon** as part of the **SmartBridge Salesforce Virtual Internship**.
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
